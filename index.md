@@ -1,6 +1,40 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
 ---
+
+<!-- Section -->
+<section>
+	<header class="major">
+		<h2>Erat lacinia</h2>
+	</header>
+	<div class="features">
+		<article>
+			<span class="icon fa-diamond"></span>
+			<div class="content">
+				<h3>Portitor ullamcorper</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon fa-paper-plane"></span>
+			<div class="content">
+				<h3>Sapien veroeros</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon fa-rocket"></span>
+			<div class="content">
+				<h3>Quam lorem ipsum</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon fa-signal"></span>
+			<div class="content">
+				<h3>Sed magna finibus</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+	</div>
+</section>
