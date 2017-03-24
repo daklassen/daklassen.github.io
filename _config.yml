@@ -11,7 +11,7 @@ github_username:  toxinide
 # Build settings
 markdown: kramdown
 permalink: ":title/"
-highlighter: pygments.rb
+highlighter: rouge
 
 # Pagination
 paginate: 10
