@@ -6,169 +6,33 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Mar 2017 09:49:49 +0100</pubDate>
-    <lastBuildDate>Fri, 24 Mar 2017 09:49:49 +0100</lastBuildDate>
+    <pubDate>Fri, 24 Mar 2017 10:34:27 +0100</pubDate>
+    <lastBuildDate>Fri, 24 Mar 2017 10:34:27 +0100</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
-        <title>My new year!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>This is the first post</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+    xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+    xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd&quot;&amp;gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:
-&lt;!-- linenos --&gt;&lt;/p&gt;
+    &amp;lt;bean id=&quot;helloBean&quot; class=&quot;com.mkyong.core.HelloWorld&quot;&amp;gt;
+        &amp;lt;property name=&quot;name&quot; value=&quot;Mkyong&quot; /&amp;gt;
+    &amp;lt;/bean&amp;gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;def print_hi(name)
-  puts &amp;quot;Hi, #{name}&amp;quot;
-end
-print_hi(&amp;#39;Tom&amp;#39;)
-#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&amp;lt;/beans&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,&lt;/p&gt;
 </description>
-        <pubDate>Fri, 02 Jan 2015 13:49:22 +0100</pubDate>
-        <link>http://localhost:4000/my-new-year/</link>
-        <guid isPermaLink="true">http://localhost:4000/my-new-year/</guid>
-        
-        
-        <category>new</category>
-        
-        <category>year</category>
-        
-        <category>resolution</category>
-        
-      </item>
-    
-      <item>
-        <title>Playing with UI</title>
-        <description>&lt;p&gt;AT&amp;amp;T You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/FlakCannon_Large.png&quot; alt=&quot;My Flak Cannon&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Trying out lists:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Item&lt;/li&gt;
-  &lt;li&gt;Item 2&lt;/li&gt;
-  &lt;li&gt;Item 3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Or Ordered lists&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Yo&lt;/li&gt;
-  &lt;li&gt;Is&lt;/li&gt;
-  &lt;li&gt;Cool&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Nested Lists&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Item 1
-    &lt;ol&gt;
-      &lt;li&gt;A corollary to the above item.&lt;/li&gt;
-      &lt;li&gt;Yet another point to consider.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ul&gt;
-      &lt;li&gt;A corollary that does not need to be ordered.
-        &lt;ul&gt;
-          &lt;li&gt;This is indented four spaces, because it’s two spaces further than the item above.&lt;/li&gt;
-          &lt;li&gt;You might want to consider makign a new list.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item 3&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;In the words of Abraham Lincoln:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Pardon my french&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;This text will be italic&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;This text will be bold&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Everyone &lt;em&gt;must&lt;/em&gt; attend the meeting at 5 o’clock today.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Check out this neat program I wrote:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;x = 2
-x = 2 + 2
-what is x
-&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Dec 2014 13:07:22 +0100</pubDate>
-        <link>http://localhost:4000/playing-with-UI/</link>
-        <guid isPermaLink="true">http://localhost:4000/playing-with-UI/</guid>
-        
-        
-        <category>ui</category>
-        
-        <category>experiment</category>
-        
-      </item>
-    
-      <item>
-        <title>It's a new game</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Queen_Full.jpg&quot; alt=&quot;Queen Full&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 11 Dec 2014 13:07:22 +0100</pubDate>
-        <link>http://localhost:4000/its-a-new-game/</link>
-        <guid isPermaLink="true">http://localhost:4000/its-a-new-game/</guid>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>This is new</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot; data-link-color=&quot;#F26452&quot;&gt;&lt;p&gt;My studio (&lt;a href=&quot;https://twitter.com/BrotherhoodIO&quot;&gt;@BrotherhoodIO&lt;/a&gt;) is currently looking for new projects. Get in touch if you’re interested! (Any retweets appreciated) :)&lt;/p&gt;&amp;mdash; ғάвισ ↬ (@fffabs) &lt;a href=&quot;https://twitter.com/fffabs/status/530722531272323073&quot;&gt;November 7, 2014&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-coffeescript&quot; data-lang=&quot;coffeescript&quot;&gt;layerA.animate
-    properties:
-        x:200
-    curve: &amp;quot;ease-in-out&amp;quot;
-
-layerA.on Events.AnimationEnd, -&amp;gt;
-    layerA.animate
-        properties:
-            x:100
-        curve: &amp;quot;ease-in-out&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 08 Dec 2014 02:07:22 +0100</pubDate>
-        <link>http://localhost:4000/this-is-new/</link>
-        <guid isPermaLink="true">http://localhost:4000/this-is-new/</guid>
+        <pubDate>Mon, 08 Dec 2014 11:07:22 +0100</pubDate>
+        <link>http://localhost:4000/FirstPost/</link>
+        <guid isPermaLink="true">http://localhost:4000/FirstPost/</guid>
         
         
         <category>jekyll</category>
