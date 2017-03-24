@@ -1,12 +1,11 @@
 # Site settings
-title: "fffabs"
-email: me@fffabs.com
+title: "blog"
+email: daviddd.kl@gmail.compressed
 description: > # this means to ignore newlines until "baseurl:"
-  fffabs &copy 2015 - go create!
+  daklassen &copy 2017
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://f-word.co" # the base hostname & protocol for your site
-twitter_username: fffabs
-github_username:  toxinide
+url: "" # the base hostname & protocol for your site
+github_username:  daklassen
 
 # Build settings
 markdown: kramdown
