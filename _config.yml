@@ -1,23 +1,24 @@
 # Site settings
-title: Testpage
-subtitle: by HTML5 UP
-email: daviddd.kl@gmail.com
-description: This is a first test.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-author:
-
-# Social settings
-500px_url:
-facebook_url:
-github_url: https://github.com/daklassen
-gitlab_url:
-googleplus_url:
-instagram_url:
-linkedin_url:
-pinterest_url:
-slack_url:
-twitter_url:
+title: "fffabs"
+email: me@fffabs.com
+description: > # this means to ignore newlines until "baseurl:"
+  fffabs &copy 2015 - go create!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://f-word.co" # the base hostname & protocol for your site
+twitter_username: fffabs
+github_username:  toxinide
 
 # Build settings
 markdown: kramdown
+permalink: ":title/"
+highlighter: pygments.rb
+
+# Pagination
+paginate: 10
+paginate_path: "blog/page/:num/"
+
+# Minification
+sass:
+  style: compressed
+
+gems: [jekyll-paginate]

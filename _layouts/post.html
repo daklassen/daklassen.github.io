@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <!-- Beginning Twitter sharing Large button -->
+  <a class="twitter-share-button" href="https://twitter.com/share"
+  data-related="twitterdev"
+  data-size="large"
+  data-count="horizontal">
+  Tweet
+  </a>
+  <!-- End of Twitter sharing button -->
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <hr>
+
+  <div class="related">
+    <h2>Related</h2>
+    {% for post in site.related_posts limit:3 %}
+      <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}
+       &nbsp; <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span></a>
+    {% endfor %}
+  </div>
+
+</div>
