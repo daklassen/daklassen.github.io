@@ -5,24 +5,21 @@
 <!-- Site navigation -->
   <nav class="site-nav">
     <div class="trigger">
+      <a class="page-link" href="{{ "/" | prepend: site.baseurl }}">Home</a>
       {% for page in site.pages %}
         {% if page.title %}
         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}
       {% endfor %}
       <a class="page-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
-      <a class="github page-link" href="https://github.com/daklassen"><span class="icon-github"></span></a>
     </div>
   </nav>
 
   <!-- The title of the site -->
   <header class="site-header">
     <a href="{{ site.baseurl }}/">
-      <div class="avatar">
-        <img src="/assets/images/avatar.png" />
-      </div>
+      <img src="/assets/images/label.png" style="padding:5px;" />
     </a>
-    <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
   </header>
 
 </div>
