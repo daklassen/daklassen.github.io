@@ -60,17 +60,17 @@ public class AnyClass {
 }
 {% endhighlight %}
 
-`Smartphone` is an abstract class that gets extended by classes like `Samsung Galaxy S7` or `Moto G4`. These concrete smartphone classes get build by the `SmartphoneFactory` depending on the criterion passed in.
+`Smartphone` is an abstract class that gets extended by classes like `Samsung Galaxy S7` or `Lenovo Moto G5`. These concrete smartphone classes get build by the `SmartphoneFactory` depending on the criterion passed in.
 
 {% highlight java %}
 public class SmartphoneFactory {
     public static Smartphone buildSmartphone(SmartphoneType type) {
         switch(type) {
             case CHEAP:
-                return new MotoG4("32GB", "4GB RAM", (...));
+                return new LenovoMotoG5("16GB", "2GB RAM", (...));
             case EXPENSIVE:
-                return new SamsungGalaxyS7("64GB", 
-                        "6GB RAM", (...));
+                return new SamsungGalaxyS7("32GB", 
+                        "4GB RAM", (...));
             default:
                 return null; //unkown type
         }
@@ -86,16 +86,16 @@ Contructors can get pretty big for classes with a huge amount of attributes. Thi
 
 {% highlight java %}
 Smartphone smartphone = new Smartphone(
-                            "Samsung", "Galaxy S7", "8GB", "16GB");
+                            "Samsung", "Galaxy S7", "4GB", "32GB");
 {% endhighlight %}
 
-Without looking into the `Smartphone` class it's hard to tell if 8GB is the RAM or the Memory. For situations like this the builder pattern could be used to make the code easier to read and the classes easier to instantiate. With this pattern implemented the instantiation would look like this:
+Without looking into the `Smartphone` class it's hard to tell if 4GB is the RAM or the Memory. For situations like this the builder pattern could be used to make the code easier to read and the classes easier to instantiate. With this pattern implemented the instantiation would look like this:
 
 {% highlight java %}
 Smartphone smartphone = new SmartphoneBuilder("Galaxy S7")
         .setBrand("Samsung")
-        .setRam("8GB")
-        .setMemory("16GB")
+        .setRam("4GB")
+        .setMemory("32GB")
         .build();
 {% endhighlight %}
 
