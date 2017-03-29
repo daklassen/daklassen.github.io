@@ -4,10 +4,10 @@
     <title>Blog</title>
     <description>David Klassen &amp;copy 2017
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Mar 2017 14:20:59 +0200</pubDate>
-    <lastBuildDate>Wed, 29 Mar 2017 14:20:59 +0200</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 29 Mar 2017 14:24:51 +0200</pubDate>
+    <lastBuildDate>Wed, 29 Mar 2017 14:24:51 +0200</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -150,8 +150,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Tue, 28 Mar 2017 11:07:22 +0200</pubDate>
-        <link>http://localhost:4000/DesignPatterns/</link>
-        <guid isPermaLink="true">http://localhost:4000/DesignPatterns/</guid>
+        <link>/DesignPatterns/</link>
+        <guid isPermaLink="true">/DesignPatterns/</guid>
         
         
         <category>jekyll</category>
@@ -178,8 +178,8 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 &lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Dec 2014 11:07:22 +0100</pubDate>
-        <link>http://localhost:4000/FirstPost/</link>
-        <guid isPermaLink="true">http://localhost:4000/FirstPost/</guid>
+        <link>/FirstPost/</link>
+        <guid isPermaLink="true">/FirstPost/</guid>
         
         
         <category>jekyll</category>
