@@ -5,9 +5,9 @@ date:   2017-03-28 09:07:22
 description: "Creational design patterns with java examples"
 categories: jekyll update
 ---
-Design patterns are reusable solutions to often occurring problems in software engineering. As any problem has its own individual facets it's important to understand that these design patterns cannot be used thoughtlessly. Therefore design pattern are more like templates or best practices that helps forming a nice fitting solution. 
+Design patterns are reusable solutions to often occurring problems in software engineering. As any problem has its own individual facets it's important to understand that these design patterns cannot be used thoughtlessly. Therefore design patterns are more like templates or best practices that help forming a nice fitting solution. 
 
-In this blog post I want to list some of the more popular **creational patterns** (pattern about object creation mechanisms) with examples in java code. I don't want to get very deep into each pattern, but rather give you an quick overview of what each pattern does and when you want to use it.
+In this blog post I want to list some of the more popular **creational patterns** (patterns about object creation mechanisms) with examples in java code. I don't want to get very deep into each pattern, but rather give you a quick overview of what each pattern does and when you want to use it.
 
 ## Singleton
 
@@ -29,7 +29,7 @@ public class Singleton {
 }
 {% endhighlight %}
 
-As you can see in the java example the class that is implemented as a singleton needs to have a private constructor to prevent other classes from instantiate this class. Instead other classes can call the static `getInstance()` Method to get the current instance of the singleton class. A complete instantiation would look like:
+As you can see in the java example the class that is implemented as a singleton needs to have a private constructor to prevent other classes from instantiating this class. Instead other classes can call the static `getInstance()` Method to get the current instance of the singleton class. A complete instantiation would look like:
 
 {% highlight java %}
 public class AnyClass {
@@ -45,7 +45,7 @@ public class AnyClass {
 
 ## Factory
 
-Sometimes it's useful to create an object based on some criteria rather than configuring each individual attribute yourself. For example if you want to get a `Smartphone` object and use the `doCall()` Method on that object. Normally you would need to call the constructor giving the specs for that smartphone. With using the factory pattern you could instead instantiate the object giving in a criteria (`CHEAP`, `EXPENSIVE`).
+Sometimes it's useful to create an object based on some criteria rather than configuring each individual attribute yourself. For example if you want to get a `Smartphone` object and use the `doCall()` Method on that object. Normally you would need to call the constructor giving the specs for that smartphone. With using the factory pattern you could instead instantiate the object giving in a criterion (`CHEAP`, `EXPENSIVE`).
 
 In java code calling the `SmartphoneFactory` and using the `doCall()` method would look like this:
 
@@ -60,7 +60,7 @@ public class AnyClass {
 }
 {% endhighlight %}
 
-`Smartphone` is an abstract class that gets extended by classes like `Samsung Galaxy S7` or `Moto G4`. This concrete smartphone classes gets build by the `SmartphoneFactory` depending on the criteria passed in.
+`Smartphone` is an abstract class that gets extended by classes like `Samsung Galaxy S7` or `Moto G4`. These concrete smartphone classes get build by the `SmartphoneFactory` depending on the criterion passed in.
 
 {% highlight java %}
 public class SmartphoneFactory {
@@ -115,7 +115,7 @@ public class Smartphone {
         this.memory = builder.memory;
     }
 
-    // Getter for name, brand, ram, memory
+    // Getters for name, brand, ram, memory
 
     public static class SmartphoneBuilder {
         private String name;
@@ -150,6 +150,6 @@ public class Smartphone {
 {% endhighlight %}
 
 To sum it up, I've shown you three creational design pattern: 
-1. The **Singleton** for sitatuations in which you want to make sure, only one single instance is created throughout the whole application.  
-2. The **Factory** for situation in which you want to get preconfigured instances based on some criteria.
+1. The **Singleton** for situations in which you want to make sure, only one single instance is created throughout the whole application.  
+2. The **Factory** for situations in which you want to get preconfigured instances based on some criteria.
 3. The **Builder** for classes that would otherwise need a huge list of parameters in the constructor.
