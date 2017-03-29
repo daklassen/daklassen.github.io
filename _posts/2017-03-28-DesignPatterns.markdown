@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Creational Design Patterns"
 date:   2017-03-28 09:07:22
 description: "Creational design patterns with java examples"
