@@ -1,5 +1,5 @@
 # Personal Blog
-This is my personal blog. The base is based on the theme *Estivo* by Fabio Basile ([@fffabs](http://twitter.com/fffabs)).
+This is my personal blog. The theme is based on *Estivo* by Fabio Basile ([@fffabs](http://twitter.com/fffabs)). 
 
 ### License
 
