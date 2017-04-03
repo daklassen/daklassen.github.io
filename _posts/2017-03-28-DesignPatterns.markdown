@@ -10,17 +10,33 @@ Design patterns are reusable solutions to often occurring problems in software e
 
 In this blog post I want to list some of the more popular **creational patterns** (patterns about object creation mechanisms) with examples in java code. I don't want to get very deep into each pattern, but rather give you a quick overview of what each pattern does and when you want to use it.
 
-## Singleton
+### Singleton
 
 If you need to make sure that there is only one instance of a class in your whole application, the singleton pattern might by helpful. Especially if you want to access this single instance from various parts throughout the system. 
 
 {% highlight java %}
 public class Singleton {
-    private static Singleton instance = null;
+    private static Singleton instance = new Singleton();
     
-    // Private Constructor to prevent instantiation.
+    // Private constructor to prevent instantiation.
     private Singleton() {}
 
+    public static Singleton getInstance() {
+        return instance;
+    }
+}
+{% endhighlight %}
+
+Alternatively, with lazy instantiation:
+
+{% highlight java %}
+public class Singleton {
+    private static Singleton instance = null;
+    
+    private Singleton() {}
+
+    // Singleton gets created once getInstance() 
+    // gets called for the first time
     public static Singleton getInstance() {
         if(instance == null) {
             instance = new Singleton();
@@ -44,7 +60,7 @@ public class AnyClass {
 }
 {% endhighlight %}
 
-## Factory
+### Factory
 
 Sometimes it's useful to create an object based on some criteria rather than configuring each individual attribute yourself. For example if you want to get a `Smartphone` object and use the `doCall()` Method on that object. Normally you would need to call the constructor giving the specs for that smartphone. With using the factory pattern you could instead instantiate the object giving in a criterion (`CHEAP`, `EXPENSIVE`).
 
@@ -81,7 +97,7 @@ public class SmartphoneFactory {
 
 As you have seen in this small example the creation of the concrete smartphone implementation is completely encapsulated from `AnyClass`. Instead the class has let the `SmartphoneFactory` build the concrete object.
 
-## Builder
+### Builder
 
 Contructors can get pretty big for classes with a huge amount of attributes. This makes it very difficult to instantiate the object without the help of the auto completion of your IDE. Moreover it's often hard to tell which parameter stands for which attribute in the class. Consider this short example:
 
