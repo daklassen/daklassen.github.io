@@ -6,8 +6,6 @@ date:   2017-04-04 14:00:00
 description: "Secure your apps easily"
 categories: jekyll update
 ---
-## OpenID Connect
-
 You may have already heard about OpenID Connect as the new standard for single sign-on and identity provision on the internet. If not I am sure, that you have at least already used it by clicking on any of this "Log In With Google" button. **But what is OpenID Connect and why do you want to use it for your own applications?** In this post I want to give a simple answers to these questions.
 
 ### Motivation
