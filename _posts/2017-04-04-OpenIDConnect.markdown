@@ -32,7 +32,7 @@ A quite interesting fact here is, that OpenID Connect doesn't specify **how** th
 
 ### JSON Web Token (JWT)
 
-As seen in the example the App finally gets three different tokens: the ID token, access token and refresh token. Because your application hasn't saved any information about your user, it has to extract them from the ID token or request additional details from the OpenID Provider with the help of the access token. As mentioned earlier the ID token is indeed a [JWT](https://jwt.io/) (pronounced like the English word "jot"). 
+As seen in the example the app finally gets three different tokens: the ID token, access token and refresh token. Because your application hasn't saved any information about your user, it has to extract them from the ID token or request additional details from the OpenID Provider with the help of the access token. As mentioned earlier the ID token is indeed a [JWT](https://jwt.io/) (pronounced like the English word "jot"). 
 
 A JWT is basically a JSON-based, cryptographically signed, base-64 encoded and URL-safe string. It is separated by dots into three different parts. In this post I don't want to get into details if JWT, but if you are interested I suggest reading [this blog post](https://medium.com/vandium-software/5-easy-steps-to-understanding-json-web-tokens-jwt-1164c0adfcec) or [this great talk](https://www.youtube.com/watch?v=67mezK3NzpU).
 
@@ -60,6 +60,6 @@ The cool thing about ID tokens as JWTs is that you don't need to save sessions w
 
 ### Summary
 
-As you have seen in this short example, your app can be secured without storing user information yourself. Instead your app delegated this concern to google. As explained in the introduction, centralizing user management to one OpenID Provider can make things a lot easier. By the way, you are not limited to use any big provider like google, consider using [Keycloak](http://www.keycloak.org/) as your own custom OpenID Provider.
+As you have seen in this short example, your app can be secured without storing user information yourself. Instead your app delegated this concern to google. As explained in the introduction, centralizing user management to one OpenID Provider can make things a lot easier. By the way, you are not limited to use any big provider like google. Consider using [Keycloak](http://www.keycloak.org/) as your own custom OpenID Provider.
 
-There are a lot more advantages of using OpenID Connect that I haven't mentioned in this short blog post. Easy realisation of Single-Sign-On is just one example. 
+There are a lot more advantages of using OpenID Connect that I haven't mentioned in this short blog post. Easy realisation of Single-Sign-On or minimizing passwird security risks are just two examples. 
